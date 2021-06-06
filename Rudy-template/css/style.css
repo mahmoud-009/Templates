@@ -1,0 +1,189 @@
+header {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+      }
+ 
+
+.navbar-nav a:hover{
+    background-color: orange;
+
+}
+header .nav-barr {
+
+    position: fixed;
+
+    display: flex;
+    z-index: 99;
+}
+.iconnn::before{
+    content: '\2661';
+}
+.iconnn2::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f4ad";
+}
+ 
+.header-box{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:850px
+}
+
+ 
+.header-box div h5{
+    color: white
+}
+.section1{
+      
+    height: 100px;
+    
+     color: white;
+    
+     
+}
+ 
+
+
+
+@media screen and (max-width: 700px) {
+     .section1{
+            position: relative;
+            top: -340px;
+            display: inline-block;
+    }  
+  }
+
+.section1 div:hover{
+    background-color: orange !important;
+    opacity: 1;
+}
+.nav-iconn {
+    display: none;
+    cursor: pointer;
+}
+
+ 
+
+img:hover header .nav-barr {
+    display: block;
+    position: relative;
+}
+
+
+.nav-barr div a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+header .nav-barr div:hover {
+    background-color: orange;
+}
+
+header .nav-barr div:hover {
+    background-color: orange;
+}
+
+.box {
+    background-color: rgb(56, 187, 187);
+    color: white;
+}
+
+.box2 {
+    background-color: rgb(255, 77, 77);
+    color: white;
+}
+
+.section4 {
+    background: url(../images/process-bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+}
+
+.meeting {
+
+    height: 250px;
+    background: url(../images/p-bg1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.reading {
+
+    height: 250px;
+    background: url(../images/p-bg2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.makeing {
+
+    height: 250px;
+    background: url(../images/p-bg3.jpg) no-repeat;
+    background-size: cover;
+}
+
+.sucess {
+
+    height: 250px;
+    background: url(../images/p-bg4.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*  <!-- Start Our process --> */
+
+.contact-box {
+    background-color: orange;
+}
+
+.carousel-item h5 {
+    color: black;
+}
+
+.carousel-item p {
+    color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin: auto 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(179, 173, 173);
+    border-radius: 50%;
+    border: none;
+}
+
+.map-box {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.map-overlay {
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    position: relative;
+    position: relative;
+    top: -405px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.email::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f0e0';
+}
+
+.location::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f3c5';
+}
+
+.phone::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f3cd';
+}
